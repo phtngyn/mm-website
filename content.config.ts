@@ -1,0 +1,33 @@
+import type { DefinedCollection } from '@nuxt/content'
+import { defineCollection, defineContentConfig, z } from '@nuxt/content'
+
+function createDocsSchema() {
+  return z.object({
+    layout: z.string().optional(),
+    links: z.array(z.object({
+      label: z.string(),
+      icon: z.string(),
+      to: z.string(),
+      target: z.string().optional(),
+    })).optional(),
+  })
+}
+
+const collections: Record<string, DefinedCollection> = {
+  // landing: defineCollection({
+  //   type: 'page',
+  //   source: {
+  //     include: 'index.md',
+  //   },
+  // }),
+  docs: defineCollection({
+    type: 'page',
+    source: {
+      include: '**',
+      // exclude: ['index.md'],
+    },
+    schema: createDocsSchema(),
+  }),
+}
+
+export default defineContentConfig({ collections })
