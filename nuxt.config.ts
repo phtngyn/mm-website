@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     'nuxt-studio',
     '@nuxt/content',
   ],
+
   devtools: {
     enabled: false,
   },
@@ -49,16 +50,14 @@ export default defineNuxtConfig({
   },
 
   studio: {
+    dev: true,
+    route: '/admin',
     repository: {
       owner: 'nuxt-content',
       repo: 'studio',
       branch: 'main',
-      rootDir: 'playground/minimal',
+      rootDir: 'app/content',
       private: false,
-    },
-
-    development: {
-      sync: true,
     },
   },
 })
