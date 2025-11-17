@@ -53,14 +53,14 @@ export default defineNuxtConfig({
   },
 
   studio: {
-    dev: false,
+    dev: true,
     route: '/admin',
     repository: {
-      owner: 'nuxt-content',
-      repo: 'studio',
+      owner: 'phtngyn',
+      repo: 'mm-website',
       branch: 'main',
       rootDir: 'app/content',
-      private: false,
+      private: true,
     },
   },
 })
