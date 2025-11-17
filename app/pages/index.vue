@@ -17,68 +17,27 @@ useSeoMeta({
     v-if="page"
     class="relative"
   >
-    <div class="hidden lg:block">
-      <UColorModeImage
-        light="/images/light/line-1.svg"
-        dark="/images/dark/line-1.svg"
-        class="absolute pointer-events-none pb-10 left-0 top-0 object-cover h-[650px]"
-      />
-    </div>
-
-    <UPageHero
-      :description="page.description"
+    <ContentHero
+      :headline="page.hero.headline"
+      :title="page.title"
       :links="page.hero.links"
-      :ui="{
-        container: 'md:pt-18 lg:pt-20',
-        title: 'max-w-3xl mx-auto',
-      }"
+      :description="page.description"
     >
       <template #top>
         <HeroBackground />
       </template>
 
       <template #title>
-        <MDC
-          :value="page.title"
-          unwrap="p"
-        />
+        <MDC :value="page.title" unwrap="p" />
       </template>
-    </UPageHero>
-
-    <UPageSection
-      :description="page.section.description"
-      :features="page.section.features"
-      orientation="horizontal"
-      :ui="{
-        container: 'lg:px-0 2xl:px-20 mx-0 max-w-none md:mr-10',
-        features: 'gap-0',
-      }"
-      reverse
-    >
-      <template #title>
-        <MDC
-          :value="page.section.title"
-          class="sm:*:leading-11"
-        />
-      </template>
-      <img
-        :src="page.section.images.desktop"
-        :alt="page.section.title"
-        class="hidden lg:block 2xl:hidden left-0 w-full max-w-2xl"
-      >
-      <img
-        :src="page.section.images.mobile"
-        :alt="page.section.title"
-        class="block lg:hidden 2xl:block 2xl:w-full 2xl:max-w-2xl"
-      >
-    </UPageSection>
+    </ContentHero>
 
     <USeparator :ui="{ border: 'border-primary/30' }" />
 
     <UPageSection
-      id="features"
-      :description="page.features.description"
-      :features="page.features.features"
+      id="leistungen"
+      :description="page.services.description"
+      :features="page.services.services"
       :ui="{
         title: 'text-left @container relative flex',
         description: 'text-left',
@@ -89,164 +48,134 @@ useSeoMeta({
       <div class="absolute rounded-full -right-10 -bottom-10 size-[300px] z-10 bg-primary opacity-30 blur-[200px]" />
       <template #title>
         <MDC
-          :value="page.features.title"
+          :value="page.services.title"
           class="*:leading-9"
         />
-        <div class="hidden @min-[1020px]:block">
-          <UColorModeImage
-            light="/images/light/line-2.svg"
-            dark="/images/dark/line-2.svg"
-            class="absolute top-0 right-0 size-full transform scale-95 translate-x-[70%]"
-          />
-        </div>
       </template>
     </UPageSection>
 
     <USeparator :ui="{ border: 'border-primary/30' }" />
 
     <UPageSection
-      id="steps"
-      :description="page.steps.description"
+      id="loesungen"
+      :description="page.solutions.description"
       class="relative overflow-hidden"
+      :ui="{ features: 'lg:grid-cols-2' }"
     >
-      <template #headline>
-        <UColorModeImage
-          light="/images/light/line-3.svg"
-          dark="/images/dark/line-3.svg"
-          class="absolute -top-10 sm:top-0 right-1/2 h-24"
-        />
-      </template>
       <template #title>
-        <MDC :value="page.steps.title" />
+        <MDC :value="page.solutions.title" />
       </template>
 
       <template #features>
         <UPageCard
-          v-for="(step, index) in page.steps.items"
+          v-for="(step, index) in page.solutions.items"
           :key="index"
           class="group"
           :ui="{ container: 'p-4 sm:p-4', title: 'flex items-center gap-1' }"
         >
-          <UColorModeImage
+          <div
             v-if="step.image"
-            :light="step.image?.light"
-            :dark="step.image?.dark"
-            :alt="step.title"
-            class="size-full"
-          />
+            class="aspect-video overflow-hidden"
+          >
+            <img
+              :src="step.image"
+              :alt="step.title"
+              class="size-full object-cover group-hover:scale-105 transition-transform duration-300"
+            >
+          </div>
 
           <div class="flex flex-col gap-2">
+            <div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center ring ring-inset ring-primary/25 text-primary">
+              <UIcon :name="step.icon" class="size-5" />
+            </div>
             <span class="text-lg font-semibold">
               {{ step.title }}
             </span>
             <span class="text-sm text-muted">
               {{ step.description }}
             </span>
+
+            <div>
+              <UButton v-bind="step.link" />
+            </div>
           </div>
         </UPageCard>
       </template>
     </UPageSection>
 
+    <USeparator :ui="{ border: 'border-primary/30' }" />
+
     <UPageSection
-      id="pricing"
-      class="mb-32 overflow-hidden"
-      :title="page.pricing.title"
-      :description="page.pricing.description"
-      :plans="page.pricing.plans"
-      :ui="{ title: 'text-left @container relative', description: 'text-left' }"
+      id="news"
+      :description="page.news.description"
+      class="relative overflow-hidden"
     >
       <template #title>
-        <MDC :value="page.pricing.title" />
-
-        <div class="hidden @min-[1120px]:block">
-          <UColorModeImage
-            light="/images/light/line-4.svg"
-            dark="/images/dark/line-4.svg"
-            class="absolute top-0 right-0 size-full transform translate-x-[60%]"
-          />
-        </div>
+        <MDC :value="page.news.title" />
       </template>
 
-      <UPricingPlans scale>
-        <UPricingPlan
-          v-for="(plan, index) in page.pricing.plans"
+      <template #features>
+        <UBlogPost
+          v-for="(item, index) in page.news.items"
           :key="index"
-          :title="plan.title"
-          :description="plan.description"
-          :price="plan.price"
-          :billing-period="plan.billing_period"
-          :billing-cycle="plan.billing_cycle"
-          :highlight="!!plan.highlight"
-          :scale="!!plan.highlight"
-          variant="soft"
-          :features="plan.features"
-          :button="plan.button"
-        />
-      </UPricingPlans>
-    </UPageSection>
-
-    <UPageSection
-      id="testimonials"
-      :title="page.testimonials.title"
-      :description="page.testimonials.description"
-      :items="page.testimonials.items"
-    >
-      <template #headline>
-        <UColorModeImage
-          light="/images/light/line-5.svg"
-          dark="/images/dark/line-5.svg"
-          class="absolute -top-10 sm:top-0 right-1/2 h-24"
+          :title="item.title"
+          :description="item.description"
+          :image="item.image"
+          :date="item.date"
+          :to="item.link.to"
+          :target="item.link.target"
         />
       </template>
-      <template #title>
-        <MDC :value="page.testimonials.title" />
-      </template>
-
-      <UContainer>
-        <UPageColumns class="xl:columns-3">
-          <UPageCard
-            v-for="(testimonial, index) in page.testimonials.items"
-            :key="index"
-            variant="subtle"
-            :description="testimonial.quote"
-            :ui="{ description: 'before:content-[open-quote] after:content-[close-quote]' }"
-          >
-            <template #footer>
-              <UUser
-                v-bind="testimonial.user"
-                size="xl"
-              />
-            </template>
-          </UPageCard>
-        </UPageColumns>
-      </UContainer>
     </UPageSection>
 
-    <USeparator />
+    <USeparator :ui="{ border: 'border-primary/30' }" />
 
     <UPageCTA
       v-bind="page.cta"
-      variant="naked"
-      class="overflow-hidden @container"
+      id="karriere"
+      variant="solid"
+      :ui="{ root: 'rounded-none' }"
+      orientation="horizontal"
     >
       <template #title>
         <MDC :value="page.cta.title" />
-
-        <div class="@max-[1280px]:hidden">
-          <UColorModeImage
-            light="/images/light/line-6.svg"
-            dark="/images/dark/line-6.svg"
-            class="absolute left-10 -top-10 sm:top-0 h-full"
-          />
-          <UColorModeImage
-            light="/images/light/line-7.svg"
-            dark="/images/dark/line-7.svg"
-            class="absolute right-0 bottom-0 h-full"
-          />
-        </div>
       </template>
 
-      <LazyStarsBg />
+      <img
+        src="/images/building.jpg"
+        width="320"
+        height="364"
+        alt="Illustration"
+        class="w-full rounded-lg"
+      >
+
+      <template #body>
+        <div class="space-y-4">
+          <div class="flex items-start gap-3">
+            <UIcon name="i-lucide-map-pin" class="size-5 mt-1" />
+            <div>
+              <div class="font-medium">
+                Berliner Platz 12
+              </div>
+              <div class="text-background/80">
+                97080 Würzburg
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3">
+            <UIcon name="i-lucide-phone" class="size-5 mt-1" />
+            <a href="tel:+4993178086100" class="hover:underline">
+              +49 (0) 931 / 780866-100
+            </a>
+          </div>
+          <div class="flex items-center gap-3">
+            <UIcon name="i-lucide-mail" class="size-5 mt-1" />
+            <a href="mailto:info@multamedio.de" class="hover:underline">
+              info@multamedio.de
+            </a>
+          </div>
+        </div>
+      </template>
     </UPageCTA>
   </div>
 </template>

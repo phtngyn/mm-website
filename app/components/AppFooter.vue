@@ -1,87 +1,47 @@
 <script setup lang="ts">
-const columns = [{
-  label: 'Resources',
-  children: [{
-    label: 'Help center',
-  }, {
-    label: 'Docs',
-  }, {
-    label: 'Roadmap',
-  }, {
-    label: 'Changelog',
-  }],
-}, {
-  label: 'Features',
-  children: [{
-    label: 'Affiliates',
-  }, {
-    label: 'Portal',
-  }, {
-    label: 'Jobs',
-  }, {
-    label: 'Sponsors',
-  }],
-}, {
-  label: 'Company',
-  children: [{
-    label: 'About',
-  }, {
-    label: 'Pricing',
-  }, {
-    label: 'Careers',
-  }, {
-    label: 'Blog',
-  }],
-}]
-
-const toast = useToast()
-
-const email = ref('')
-const loading = ref(false)
-
-function onSubmit() {
-  loading.value = true
-
-  toast.add({
-    title: 'Subscribed!',
-    description: 'You\'ve been subscribed to our newsletter.',
-  })
-}
+const columns = [
+  {
+    label: 'Unternehmen',
+    children: [
+      { label: 'Über uns' },
+      { label: 'Standorte' },
+      { label: 'Partner' },
+    ],
+  },
+  {
+    label: 'Lösungen',
+    children: [
+      { label: 'Learning Solutions' },
+      { label: 'Lottery Solutions' },
+      { label: 'Referenzen' },
+    ],
+  },
+  {
+    label: 'Rechtliches',
+    children: [
+      { label: 'Impressum' },
+      { label: 'Datenschutz' },
+      { label: 'AGB' },
+    ],
+  },
+]
 </script>
 
 <template>
-  <USeparator
-    icon="i-simple-icons-nuxtdotjs"
-    class="h-px"
-  />
-
   <UFooter :ui="{ top: 'border-b border-default' }">
     <template #top>
       <UContainer>
         <UFooterColumns :columns="columns">
-          <template #right>
-            <form @submit.prevent="onSubmit">
-              <UFormField
-                name="email"
-                label="Subscribe to our newsletter"
-                size="lg"
-              >
-                <UInput
-                  v-model="email"
-                  type="email"
-                  class="w-full"
-                  placeholder="Enter your email"
-                >
-                  <template #trailing>
-                    <UButton
-                      type="submit"
-                      size="xs"
-                      label="Subscribe"
-                    />
-                  </template>
-                </UInput>
-              </UFormField>
-            </form>
+          <template #left>
+            <div class="grid gap-4">
+              <div class="flex items-center gap-2">
+                <AppLogo class="size-10" />
+                <div class="grid">
+                  <span class="font-medium text-xl text-primary">MULTAMEDIO</span>
+                  <span class="text-sm text-muted">Informationssysteme AG</span>
+                </div>
+              </div>
+            </div>
           </template>
         </UFooterColumns>
       </UContainer>
@@ -89,32 +49,32 @@ function onSubmit() {
 
     <template #left>
       <p class="text-sm text-muted">
-        Built with Nuxt UI • © {{ new Date().getFullYear() }}
+        © {{ new Date().getFullYear() }} MULTA MEDIO Informationssysteme AG. Alle Rechte vorbehalten.
       </p>
     </template>
 
     <template #right>
       <UButton
-        to="https://go.nuxt.com/discord"
         target="_blank"
-        icon="i-simple-icons-discord"
-        aria-label="Nuxt on Discord"
+        icon="i-simple-icons-facebook"
         color="neutral"
         variant="ghost"
       />
       <UButton
-        to="https://go.nuxt.com/x"
         target="_blank"
-        icon="i-simple-icons-x"
-        aria-label="Nuxt on X"
+        icon="i-simple-icons-instagram"
         color="neutral"
         variant="ghost"
       />
       <UButton
-        to="https://github.com/nuxt-ui-templates/landing"
         target="_blank"
-        icon="i-simple-icons-github"
-        aria-label="Nuxt UI on GitHub"
+        icon="i-simple-icons-linkedin"
+        color="neutral"
+        variant="ghost"
+      />
+      <UButton
+        target="_blank"
+        icon="i-simple-icons-xing"
         color="neutral"
         variant="ghost"
       />
