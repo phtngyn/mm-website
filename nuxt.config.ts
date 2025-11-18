@@ -60,7 +60,7 @@ export default defineNuxtConfig({
   },
 
   studio: {
-    dev: true,
+    dev: false,
     route: '/admin',
     repository: {
       provider: 'github',

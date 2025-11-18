@@ -9,17 +9,12 @@ useHead({
     { key: 'theme-color', name: 'theme-color', content: color },
   ],
   link: [
-    { rel: 'icon', href: '/favicon.ico' },
+    { rel: 'icon', href: '/logos/mm.svg', type: 'image/svg+xml' },
+    { rel: 'icon', href: '/logos/mm.png', type: 'image/png' },
   ],
   htmlAttrs: {
     lang: 'en',
   },
-})
-
-useSeoMeta({
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/landing-light.png',
-  twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/landing-light.png',
-  twitterCard: 'summary_large_image',
 })
 </script>
 
