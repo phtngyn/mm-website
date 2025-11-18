@@ -1,9 +1,15 @@
-seo:
-  title: MULTA MEDIO ~ Die Softwareentwickler
-  description: Geht nicht, gibt's nicht! Wir sind Ihr Full-Service IT-Dienstleister mit Pioniergeist und Start-Up-Mentalität für digitale Transformation.
-
 title: Maßgeschneiderte Software­lösungen
-description: Geht nicht, gibt's nicht! Wir sind Ihr Full-Service IT-Dienstleister mit Pioniergeist und Start-Up-Mentalität für digitale Transformation.
+cta:
+  title: Werde Teil unserer Erfolgsgeschichte!
+  description: Lernen Sie MULTA MEDIO als Arbeitgeber kennen. Wir freuen uns auf Ihre Bewerbung und darauf, gemeinsam mit Ihnen die digitale Zukunft zu gestalten.
+  image: /images/building.png
+  links:
+    - label: Karriere-Möglichkeiten
+      to: https://www.multamedio.de/karriere/jobs
+      target: _blank
+      trailingIcon: i-lucide-arrow-right
+      size: xl
+description: Geht nicht, gibt's nicht! Wir sind Ihr Full-Service IT-Dienstleister mit Pioniergeist und Start-Up-Mentalität für digitale Transformation. Ich war hier zum Testen dieser Webseite.
 hero:
   headline: 25+ Jahre Erfahrung
   image: /images/team.png
@@ -17,7 +23,34 @@ hero:
       size: xl
       variant: outline
       color: primary
-
+news:
+  title: Die wichtigsten Neuigkeiten
+  description: Bleiben Sie auf dem Laufenden über unsere neuesten Entwicklungen
+  items:
+    - title: Partnerschaft MULTA MEDIO und Pyramid
+      description: MULTA MEDIO und Pyramid stellen ein neues Self Service Terminal vor.
+      image: /images/news1.png
+      date: 15.09.2025
+      link:
+        to: https://www.multamedio.de/news/Partnerschaft%20Pyramid%20und%20MM
+        target: _blank
+    - title: MULTA MEDIO auf dem European Lottery Congress
+      description: MULTA MEDIO ist 2025 erstmals mit Messestand beim European Lottery Congress in Bern vertreten.
+      image: /images/news2.png
+      date: 31.07.2025
+      link:
+        to: https://www.multamedio.de/news/Ank%C3%BCndigung%20European%20Lottery%20Congress%202025
+        target: _blank
+    - title: Jahresabschluss 2024 vorgestellt
+      description: Der Aufsichtsrat würdigt das Engagement des Teams und präsentiert ein erfolgreiches Ergebnis.
+      image: /images/news3.png
+      date: 10.06.2025
+      link:
+        to: https://www.multamedio.de/news/Multa%20Medio%20Jahresabschluss%202024
+        target: _blank
+seo:
+  title: MULTA MEDIO ~ Die Softwareentwickler
+  description: Geht nicht, gibt's nicht! Wir sind Ihr Full-Service IT-Dienstleister mit Pioniergeist und Start-Up-Mentalität für digitale Transformation.
 services:
   title: Unsere Leistungen
   description: Fullservice-Portfolio für Ihre digitale Transformation
@@ -52,7 +85,6 @@ services:
       icon: i-lucide-users
       ui:
         leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
-
 solutions:
   title: Unsere Geschäftsbereiche
   description: Spezialisierte Lösungen für Learning und Lottery Systeme
@@ -68,7 +100,6 @@ solutions:
         color: primary
         size: lg
         variant: outline
-
     - title: Lottery Solutions
       description: Führend in Deutschland. Wir entwickeln, implementieren und betreiben digitale Lotterie-Systeme mit höchsten Sicherheits- und Qualitätsstandards.
       icon: i-lucide-trophy
@@ -80,42 +111,3 @@ solutions:
         color: primary
         size: lg
         variant: outline
-
-news:
-  title: Die wichtigsten Neuigkeiten
-  description: Bleiben Sie auf dem Laufenden über unsere neuesten Entwicklungen
-  items:
-    - title: Partnerschaft MULTA MEDIO und Pyramid
-      description: MULTA MEDIO und Pyramid stellen ein neues Self Service Terminal vor.
-      image: /images/news1.png
-      date: 15.09.2025
-      link:
-        to: https://www.multamedio.de/news/Partnerschaft%20Pyramid%20und%20MM
-        target: _blank
-
-    - title: MULTA MEDIO auf dem European Lottery Congress
-      description: MULTA MEDIO ist 2025 erstmals mit Messestand beim European Lottery Congress in Bern vertreten.
-      image: /images/news2.png
-      date: 31.07.2025
-      link:
-        to: https://www.multamedio.de/news/Ank%C3%BCndigung%20European%20Lottery%20Congress%202025
-        target: _blank
-
-    - title: Jahresabschluss 2024 vorgestellt
-      description: Der Aufsichtsrat würdigt das Engagement des Teams und präsentiert ein erfolgreiches Ergebnis.
-      image: /images/news3.png
-      date: 10.06.2025
-      link:
-        to: https://www.multamedio.de/news/Multa%20Medio%20Jahresabschluss%202024
-        target: _blank
-
-cta:
-  title: Werde Teil unserer Erfolgsgeschichte!
-  description: Lernen Sie MULTA MEDIO als Arbeitgeber kennen. Wir freuen uns auf Ihre Bewerbung und darauf, gemeinsam mit Ihnen die digitale Zukunft zu gestalten.
-  image: /images/building.png
-  links:
-    - label: Karriere-Möglichkeiten
-      to: https://www.multamedio.de/karriere/jobs
-      target: _blank
-      trailingIcon: i-lucide-arrow-right
-      size: xl
