@@ -3,6 +3,18 @@ title: Maßgeschneiderte Software­lösungen
 description: Geht nicht, gibt's nicht! Wir sind Ihr Full-Service IT-Dienstleister mit Pioniergeist und Start-Up-Mentalität für digitale Transformation.
 ---
 
+::u-blog-post
+---
+date: 2024-11-25
+description: Discover Nuxt Icon v1 - a modern, versatile, and customizable icon
+  solution for your Nuxt projects.
+title: Introducing Nuxt Icon v1
+---
+::
+
+::u-button{label="Test Button"}
+::
+
 ::hero
 ---
 :description: description
