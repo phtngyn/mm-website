@@ -3,9 +3,9 @@ title: Maßgeschneiderte Software­lösungen
 description: Geht nicht, gibt's nicht! Wir sind Ihr Full-Service IT-Dienstleister mit Pioniergeist und Start-Up-Mentalität für digitale Transformation.
 ---
 
-::Hero{:title="title" :description="description"}
+::hero
 ---
-headline: 25+ Jahre Erfahrung
+:description: description
 links:
   - label: Projekte entdecken
     icon: i-lucide-arrow-right
@@ -16,30 +16,31 @@ links:
     size: xl
     variant: outline
     color: primary
+:title: title
+headline: 25+ Jahre Erfahrung
 ---
-
 #top
-::HeroBackground
-::
+  :::hero-background
+  :::
 
 #right
-
-<div class="relative">
-  <div class="aspect-square rounded-2xl bg-muted overflow-hidden">
-    <img
-      src="/images/team.png"
-      alt="Team collaboration" 
-      class="size-[80%] object-cover"
-    >
-  </div>
-
-  <div class="absolute -bottom-6 -left-6 bg-default border border-default rounded-xl p-6 shadow-lg">
-    <div class="text-sm text-muted mb-1">
+  :::div{.relative}
+    ::::div{.aspect-square.rounded-2xl.bg-muted.overflow-hidden}
+    ![Team collaboration](/images/team.png){.size-[80%].object-cover}
+    ::::
+  
+    ::::div
+    ---
+    class: absolute -bottom-6 -left-6 bg-default border border-default rounded-xl
+      p-6 shadow-lg
+    ---
+      :::::div{.text-sm.text-muted.mb-1}
       Kundenzufriedenheit
-    </div>
-    <div class="text-2xl font-bold">
+      :::::
+    
+      :::::div{.text-2xl.font-bold}
       98%
-    </div>
-  </div>
-</div>
+      :::::
+    ::::
+  :::
 ::
