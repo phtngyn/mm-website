@@ -22,6 +22,7 @@
     "@nuxt/content": "^3.8.2",
     "@nuxt/eslint": "^1.10.0",
     "@nuxt/ui": "^4.1.0",
+    "@nuxtjs/mdc": "0.18.4",
     "@vueuse/core": "^14.0.0",
     "@vueuse/nuxt": "^14.0.0",
     "eslint": "^9.39.1",

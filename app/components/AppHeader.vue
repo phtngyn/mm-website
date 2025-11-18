@@ -54,6 +54,14 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
         class="hidden lg:block"
       />
 
+      <UButton
+        variant="subtle"
+        to="/builder"
+        icon="i-lucide-hammer"
+      >
+        Builder
+      </UButton>
+
       <UColorModeButton />
     </template>
 

@@ -17,7 +17,7 @@ useSeoMeta({
     v-if="page"
     class="relative"
   >
-    <ContentHero
+    <Hero
       :headline="page.hero.headline"
       :title="page.title"
       :links="page.hero.links"
@@ -49,7 +49,7 @@ useSeoMeta({
           </div>
         </div>
       </template>
-    </ContentHero>
+    </Hero>
 
     <USeparator :ui="{ border: 'border-primary/30' }" />
 

@@ -1,4 +1,5 @@
-import { defineCollection, z } from '@nuxt/content'
+import type { DefinedCollection } from '@nuxt/content'
+import { defineCollection, defineContentConfig, z } from '@nuxt/content'
 
 const createEnum = (options: [string, ...string[]]) => z.enum(options)
 
@@ -22,10 +23,10 @@ function createLinkSchema() {
   })
 }
 
-export const collections = {
+const collections: Record<string, DefinedCollection> = {
   content: defineCollection({
-    source: 'index.yml',
     type: 'page',
+    source: 'index.yml',
     schema: z.object({
       hero: z.object({
         headline: z.string().optional(),
@@ -63,4 +64,11 @@ export const collections = {
       }),
     }),
   }),
+
+  builder: defineCollection({
+    type: 'page',
+    source: 'builder.md',
+  }),
 }
+
+export default defineContentConfig({ collections })

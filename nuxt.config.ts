@@ -1,11 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
-    '@nuxt/eslint',
-    '@nuxt/ui',
     '@vueuse/nuxt',
-    'nuxt-studio',
+    '@nuxt/ui',
     '@nuxt/content',
+    '@nuxtjs/mdc',
+    'nuxt-studio',
+    '@nuxt/eslint',
   ],
 
   devtools: {
@@ -47,6 +48,12 @@ export default defineNuxtConfig({
         noUncheckedIndexedAccess: true,
         exactOptionalPropertyTypes: true,
       },
+    },
+  },
+
+  hooks: {
+    'components:extend': (components) => {
+      components.filter(c => c.global = true)
     },
   },
 
