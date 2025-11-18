@@ -46,8 +46,8 @@ importers:
         specifier: ^4.2.1
         version: 4.2.1(@parcel/watcher@2.5.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4)(eslint@9.39.1(jiti@2.6.1))(ioredis@5.8.2)(lightningcss@1.30.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.53.2)(terser@5.39.0)(typescript@5.9.3)(vite@7.2.2(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.39.0)(yaml@2.8.1))(vue-tsc@3.1.4(typescript@5.9.3))(yaml@2.8.1)
       nuxt-studio:
-        specifier: https://pkg.pr.new/nuxt-content/studio/nuxt-studio@43106e7
-        version: https://pkg.pr.new/nuxt-content/studio/nuxt-studio@43106e7(db0@0.3.4)(ioredis@5.8.2)(magicast@0.5.1)(vue@3.5.24(typescript@5.9.3))
+        specifier: ^1.0.0-alpha.2
+        version: 1.0.0-alpha.2(db0@0.3.4)(ioredis@5.8.2)(magicast@0.5.1)(vue@3.5.24(typescript@5.9.3))
       simple-git-hooks:
         specifier: ^2.13.1
         version: 2.13.1
@@ -3986,9 +3986,8 @@ packages:
     resolution: {integrity: sha512-pxEnARUzRmq3zbOm8fJkWLPR8mL82NeP5Pu/iYff4otl6jPJwgC1Cbpz3Z77HlVeYVtzhSpQRsCSo/+296CwYw==}
     hasBin: true
 
-  nuxt-studio@https://pkg.pr.new/nuxt-content/studio/nuxt-studio@43106e7:
-    resolution: {tarball: https://pkg.pr.new/nuxt-content/studio/nuxt-studio@43106e7}
-    version: 1.0.0-alpha.1
+  nuxt-studio@1.0.0-alpha.2:
+    resolution: {integrity: sha512-Kc6iONSLrYK7CXRkditNNurcPiadcb1AmnSdBczQ0ZcPuiHjCKBKA3l7clRBTDhotujbmCwMq6j9iPohgcO9lQ==}
 
   nuxt@4.2.1:
     resolution: {integrity: sha512-OE5ONizgwkKhjTGlUYB3ksE+2q2/I30QIYFl3N1yYz1r2rwhunGA3puUvqkzXwgLQ3AdsNcigPDmyQsqjbSdoQ==}
@@ -10152,7 +10151,7 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  nuxt-studio@https://pkg.pr.new/nuxt-content/studio/nuxt-studio@43106e7(db0@0.3.4)(ioredis@5.8.2)(magicast@0.5.1)(vue@3.5.24(typescript@5.9.3)):
+  nuxt-studio@1.0.0-alpha.2(db0@0.3.4)(ioredis@5.8.2)(magicast@0.5.1)(vue@3.5.24(typescript@5.9.3)):
     dependencies:
       '@iconify-json/lucide': 1.2.73
       '@nuxtjs/mdc': 0.18.3(magicast@0.5.1)

@@ -29,6 +29,7 @@ export const collections = {
     schema: z.object({
       hero: z.object({
         headline: z.string().optional(),
+        image: z.string().editor({ input: 'media' }),
         links: z.array(createLinkSchema()),
       }),
 
@@ -57,6 +58,7 @@ export const collections = {
       }),
 
       cta: createBaseSchema().extend({
+        image: z.string().editor({ input: 'media' }),
         links: z.array(createLinkSchema()),
       }),
     }),

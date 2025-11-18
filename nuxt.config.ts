@@ -34,6 +34,13 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2025-05-01',
 
+  nitro: {
+    prerender: {
+      routes: ['/'],
+      crawlLinks: true,
+    },
+  },
+
   typescript: {
     tsConfig: {
       compilerOptions: {
@@ -56,11 +63,12 @@ export default defineNuxtConfig({
     dev: true,
     route: '/admin',
     repository: {
+      provider: 'github',
       owner: 'phtngyn',
       repo: 'mm-website',
       branch: 'main',
-      rootDir: 'app/content',
-      private: true,
+      rootDir: '',
+      private: false,
     },
   },
 })

@@ -30,6 +30,25 @@ useSeoMeta({
       <template #title>
         <MDC :value="page.title" unwrap="p" />
       </template>
+
+      <template #right>
+        <div class="relative">
+          <div class="aspect-square rounded-2xl bg-muted overflow-hidden">
+            <img
+              :src="page.hero.image"
+              alt="Team collaboration" class="size-full object-cover"
+            >
+          </div>
+          <div class="absolute -bottom-6 -left-6 bg-default border border-default rounded-xl p-6 shadow-lg">
+            <div class="text-sm text-muted mb-1">
+              Kundenzufriedenheit
+            </div>
+            <div class="text-2xl font-bold">
+              98%
+            </div>
+          </div>
+        </div>
+      </template>
     </ContentHero>
 
     <USeparator :ui="{ border: 'border-primary/30' }" />
@@ -142,9 +161,7 @@ useSeoMeta({
       </template>
 
       <img
-        src="/images/building.jpg"
-        width="320"
-        height="364"
+        :src="page.cta.image"
         alt="Illustration"
         class="w-full rounded-lg"
       >

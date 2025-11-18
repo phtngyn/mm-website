@@ -1,10 +1,12 @@
 seo:
   title: MULTA MEDIO ~ Die Softwareentwickler
   description: Geht nicht, gibt's nicht! Wir sind Ihr Full-Service IT-Dienstleister mit Pioniergeist und Start-Up-Mentalität für digitale Transformation.
+
 title: Maßgeschneiderte Software­lösungen
 description: Geht nicht, gibt's nicht! Wir sind Ihr Full-Service IT-Dienstleister mit Pioniergeist und Start-Up-Mentalität für digitale Transformation.
 hero:
   headline: 25+ Jahre Erfahrung
+  image: /images/team.png
   links:
     - label: Projekte entdecken
       icon: i-lucide-arrow-right
@@ -58,7 +60,7 @@ solutions:
     - title: Learning Solutions
       description: Effizientes Lernen mit System. Wir entwickeln innovative E-Learning-Plattformen und digitale Bildungslösungen für nachhaltigen Lernerfolg.
       icon: i-lucide-graduation-cap
-      image: /images/e-learning.jpg
+      image: /images/elearning.svg
       link:
         label: Projekte entdecken
         icon: i-lucide-arrow-right
@@ -70,7 +72,7 @@ solutions:
     - title: Lottery Solutions
       description: Führend in Deutschland. Wir entwickeln, implementieren und betreiben digitale Lotterie-Systeme mit höchsten Sicherheits- und Qualitätsstandards.
       icon: i-lucide-trophy
-      image: /images/lottery.jpg
+      image: /images/lottery.svg
       link:
         label: Projekte entdecken
         icon: i-lucide-arrow-right
@@ -110,6 +112,7 @@ news:
 cta:
   title: Werde Teil unserer Erfolgsgeschichte!
   description: Lernen Sie MULTA MEDIO als Arbeitgeber kennen. Wir freuen uns auf Ihre Bewerbung und darauf, gemeinsam mit Ihnen die digitale Zukunft zu gestalten.
+  image: /images/building.png
   links:
     - label: Karriere-Möglichkeiten
       to: https://www.multamedio.de/karriere/jobs

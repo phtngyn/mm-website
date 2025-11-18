@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1238" height="946" viewBox="0 0 1238 946">
+  <defs>
+    <filter id="Pfad_32614" x="182.412" y="171.872" width="959.176" height="744.995" filterUnits="userSpaceOnUse">
+      <feOffset dy="30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="30" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Address_bar">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-2"/>
+      <feFlood flood-opacity="0.239" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Rechteck_5480" x="874" y="619" width="269" height="255" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rechteck_5480-2" x="183" y="542" width="240" height="332" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rechteck_5480-3" x="756" y="146" width="409" height="241" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-learning-solutions-inhalte">
+      <rect width="1238" height="946"/>
+    </clipPath>
+  </defs>
+  <g id="learning-solutions-inhalte" clip-path="url(#clip-learning-solutions-inhalte)">
+    <g id="Vereinigungsmenge_77" data-name="Vereinigungsmenge 77" opacity="0.106">
+      <path id="Vereinigungsmenge_77-2" data-name="Vereinigungsmenge 77" d="M137.471,140.327a140.035,140.035,0,0,0,47.98,105.68q-4.427-.22-8.9-.221C79.044,245.786,0,324.865,0,422.414S79.044,599.042,176.549,599.042a175.976,175.976,0,0,0,66.532-12.971c26.927,105.984,122.938,184.373,237.253,184.373,116.3,0,213.664-81.15,238.6-189.938a272.476,272.476,0,0,0,59.137,15.611,92.611,92.611,0,1,0,141.078-16.2A275.59,275.59,0,0,0,1064.979,445.1a92.642,92.642,0,1,0,27.878-122.29C1092.036,171.8,969.424,49.653,818.291,49.653c-139.86,0-255.294,104.6-272.387,239.885a245.208,245.208,0,0,0-216.995,43.583,177.483,177.483,0,0,0-47.1-52.525A140.327,140.327,0,1,0,137.471,140.327Z" transform="translate(1238 886.209) rotate(180)" fill="#009fe3"/>
+      <path id="Vereinigungsmenge_77_-_Kontur" data-name="Vereinigungsmenge 77 - Kontur" d="M277.735,1a140.231,140.231,0,0,0-28.068,2.831,138.458,138.458,0,0,0-49.8,20.964,139.73,139.73,0,0,0-50.457,61.3,138.668,138.668,0,0,0-8.114,26.152,140.693,140.693,0,0,0,.509,58.539,138.757,138.757,0,0,0,24.54,53.184,140.389,140.389,0,0,0,19.76,21.285l2.165,1.894-2.874-.143c-2.927-.146-5.905-.219-8.852-.219a176.771,176.771,0,0,0-35.38,3.568A174.544,174.544,0,0,0,78.4,276.78a176.135,176.135,0,0,0-63.6,77.272A174.783,174.783,0,0,0,4.567,387.018a177.425,177.425,0,0,0,0,70.793,174.7,174.7,0,0,0,26.414,62.8,176.072,176.072,0,0,0,77.238,63.632,174.586,174.586,0,0,0,32.951,10.233,177.213,177.213,0,0,0,69.579.238,174.615,174.615,0,0,0,31.956-9.567l1.064-.433.283,1.113a242.662,242.662,0,0,0,32.222,73.219,244.926,244.926,0,0,0,86.341,80.134,243.43,243.43,0,0,0,270.656-23.685,244.412,244.412,0,0,0,72.1-95.976,242.84,242.84,0,0,0,12.589-39.234l.258-1.128,1.078.419a272.084,272.084,0,0,0,58.92,15.553l1.556.228-.866,1.312a91.275,91.275,0,0,0-15.116,50.45,92.37,92.37,0,0,0,1.861,18.472,91.162,91.162,0,0,0,13.783,32.77,91.881,91.881,0,0,0,40.3,33.206,91.106,91.106,0,0,0,17.194,5.34,92.467,92.467,0,0,0,36.926,0,91.08,91.08,0,0,0,32.755-13.789A91.916,91.916,0,0,0,939.8,682.79a91.2,91.2,0,0,0,5.337-17.2,92.571,92.571,0,0,0-.126-37.55A91.2,91.2,0,0,0,930.334,594.4a92.327,92.327,0,0,0-11.877-13.753l-1.136-1.079,1.457-.576a274.588,274.588,0,0,0,145.3-134.329l.829-1.693.937,1.636a92.133,92.133,0,0,0,32.927,33.425,91.148,91.148,0,0,0,46.618,12.737,92.245,92.245,0,0,0,18.463-1.862,91.078,91.078,0,0,0,32.755-13.789A91.915,91.915,0,0,0,1229.8,434.79a91.212,91.212,0,0,0,5.337-17.2,92.589,92.589,0,0,0,0-36.943,91.162,91.162,0,0,0-13.783-32.77,91.885,91.885,0,0,0-40.306-33.206,91.1,91.1,0,0,0-17.194-5.34,92.239,92.239,0,0,0-46.146,2.4,91.185,91.185,0,0,0-24.284,11.9l-1.558,1.075-.01-1.893a275.668,275.668,0,0,0-5.813-54.893,272.27,272.27,0,0,0-41.4-97.339,274.369,274.369,0,0,0-120.2-98.563,272.115,272.115,0,0,0-51.2-15.843,276.249,276.249,0,0,0-105.929-.782,271.786,271.786,0,0,0-91.645,35.343A273.147,273.147,0,0,0,546.9,289.664l-.145,1.147-1.114-.309a243.349,243.349,0,0,0-216.108,43.4l-.9.711-.581-.99A176.482,176.482,0,0,0,281.209,281.4l-2.311-1.72,2.88-.082A139.326,139.326,0,0,0,277.735,1m0-1a140.329,140.329,0,0,1,4.071,280.6,177.482,177.482,0,0,1,47.1,52.525A245.209,245.209,0,0,1,545.9,289.538C563,154.258,678.431,49.653,818.291,49.653c151.133,0,273.745,122.149,274.567,273.156a92.652,92.652,0,1,1-27.878,122.29A275.59,275.59,0,0,1,919.146,579.918a92.6,92.6,0,1,1-141.078,16.2,272.476,272.476,0,0,1-59.137-15.61C694,689.293,596.638,770.443,480.334,770.443c-114.315,0-210.327-78.389-237.253-184.373a175.976,175.976,0,0,1-66.532,12.972C79.044,599.042,0,519.963,0,422.414S79.044,245.786,176.549,245.786q4.481,0,8.9.221A140.342,140.342,0,0,1,277.735,0Z" transform="translate(1238 886.209) rotate(180)" fill="#707070"/>
+    </g>
+    <g id="Gruppe_19863" data-name="Gruppe 19863" transform="translate(-1763 1954)">
+      <rect id="Rechteck_4848" data-name="Rechteck 4848" width="336" height="272" rx="8" transform="translate(1953 -1816)" fill="#707d8b"/>
+      <path id="Rechteck_4849" data-name="Rechteck 4849" d="M8,0H328a8,8,0,0,1,8,8V24a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V8A8,8,0,0,1,8,0Z" transform="translate(1953 -1816)" fill="#ebeceb"/>
+      <g id="Gruppe_18913" data-name="Gruppe 18913" transform="translate(1951 -1828.083)">
+        <rect id="Maximize" width="8" height="8" rx="4" transform="translate(42 20.083)" fill="#28ca42"/>
+        <rect id="Minimize" width="8" height="8" rx="4" transform="translate(30 20.083)" fill="#ffbe2f"/>
+        <rect id="Close" width="8" height="8" rx="4" transform="translate(18 20.083)" fill="#ff5f57"/>
+      </g>
+      <g id="Gruppe_18914" data-name="Gruppe 18914" transform="translate(-650.027 -1265.5)">
+        <rect id="Rechteck_4407" data-name="Rechteck 4407" width="104" height="4" rx="2" transform="translate(2635.027 -494.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4462" data-name="Rechteck 4462" width="32" height="4" rx="2" transform="translate(2747.027 -494.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4463" data-name="Rechteck 4463" width="24" height="4" rx="2" transform="translate(2787.027 -494.5)" fill="#47d868"/>
+        <rect id="Rechteck_4407-2" data-name="Rechteck 4407" width="80" height="4" rx="2" transform="translate(2635.027 -446.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4407-3" data-name="Rechteck 4407" width="80" height="4" rx="2" transform="translate(2635.027 -350.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4407-4" data-name="Rechteck 4407" width="40" height="4" rx="2" transform="translate(2635.027 -470.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4462-2" data-name="Rechteck 4462" width="40" height="4" rx="2" transform="translate(2683.027 -470.5)" fill="#47d868"/>
+        <rect id="Rechteck_4463-2" data-name="Rechteck 4463" width="24" height="4" rx="2" transform="translate(2635.027 -458.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4853" data-name="Rechteck 4853" width="16" height="4" rx="2" transform="translate(2667.027 -458.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4407-5" data-name="Rechteck 4407" width="40" height="4" rx="2" transform="translate(2635.027 -374.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4462-3" data-name="Rechteck 4462" width="24" height="4" rx="2" transform="translate(2683.027 -374.5)" fill="#47d868"/>
+        <rect id="Rechteck_4463-3" data-name="Rechteck 4463" width="24" height="4" rx="2" transform="translate(2635.027 -362.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4853-2" data-name="Rechteck 4853" width="8" height="4" rx="2" transform="translate(2667.027 -362.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4407-6" data-name="Rechteck 4407" width="40" height="4" rx="2" transform="translate(2635.027 -422.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4462-4" data-name="Rechteck 4462" width="40" height="4" rx="2" transform="translate(2683.027 -422.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4463-4" data-name="Rechteck 4463" width="24" height="4" rx="2" transform="translate(2635.027 -410.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4853-3" data-name="Rechteck 4853" width="16" height="4" rx="2" transform="translate(2667.027 -410.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4407-7" data-name="Rechteck 4407" width="40" height="4" rx="2" transform="translate(2635.027 -326.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4462-5" data-name="Rechteck 4462" width="32" height="4" rx="2" transform="translate(2683.027 -326.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4463-5" data-name="Rechteck 4463" width="24" height="4" rx="2" transform="translate(2635.027 -314.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4853-4" data-name="Rechteck 4853" width="24" height="4" rx="2" transform="translate(2667.027 -314.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4850" data-name="Rechteck 4850" width="56" height="4" rx="2" transform="translate(2635.027 -482.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4880" data-name="Rechteck 4880" width="56" height="4" rx="2" transform="translate(2635.027 -386.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4866" data-name="Rechteck 4866" width="56" height="4" rx="2" transform="translate(2635.027 -434.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4875" data-name="Rechteck 4875" width="56" height="4" rx="2" transform="translate(2635.027 -338.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4851" data-name="Rechteck 4851" width="64" height="4" rx="2" transform="translate(2699.027 -482.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4881" data-name="Rechteck 4881" width="32" height="4" rx="2" transform="translate(2699.027 -386.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4864" data-name="Rechteck 4864" width="32" height="4" rx="2" transform="translate(2699.027 -434.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4876" data-name="Rechteck 4876" width="32" height="4" rx="2" transform="translate(2699.027 -338.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4854" data-name="Rechteck 4854" width="40" height="4" rx="2" transform="translate(2867.027 -482.5)" fill="#47d868"/>
+        <rect id="Rechteck_4882" data-name="Rechteck 4882" width="40" height="4" rx="2" transform="translate(2867.027 -386.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4867" data-name="Rechteck 4867" width="24" height="4" rx="2" transform="translate(2883.027 -434.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4873" data-name="Rechteck 4873" width="24" height="4" rx="2" transform="translate(2883.027 -338.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4852" data-name="Rechteck 4852" width="8" height="4" rx="2" transform="translate(2771.027 -482.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4883" data-name="Rechteck 4883" width="8" height="4" rx="2" transform="translate(2715.027 -374.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4865" data-name="Rechteck 4865" width="8" height="4" rx="2" transform="translate(2739.027 -434.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4874" data-name="Rechteck 4874" width="8" height="4" rx="2" transform="translate(2739.027 -338.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4855" data-name="Rechteck 4855" width="8" height="4" rx="2" transform="translate(2899.027 -494.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4884" data-name="Rechteck 4884" width="16" height="4" rx="2" transform="translate(2891.027 -398.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4868" data-name="Rechteck 4868" width="16" height="4" rx="2" transform="translate(2891.027 -446.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4877" data-name="Rechteck 4877" width="8" height="4" rx="2" transform="translate(2899.027 -350.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4856" data-name="Rechteck 4856" width="16" height="4" rx="2" transform="translate(2851.027 -470.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4885" data-name="Rechteck 4885" width="16" height="4" rx="2" transform="translate(2851.027 -374.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4862" data-name="Rechteck 4862" width="8" height="4" rx="2" transform="translate(2859.027 -422.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4869" data-name="Rechteck 4869" width="8" height="4" rx="2" transform="translate(2859.027 -326.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4857" data-name="Rechteck 4857" width="32" height="4" rx="2" transform="translate(2875.027 -470.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4886" data-name="Rechteck 4886" width="32" height="4" rx="2" transform="translate(2875.027 -374.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4863" data-name="Rechteck 4863" width="35" height="4" rx="2" transform="translate(2872.027 -422.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4870" data-name="Rechteck 4870" width="32" height="4" rx="2" transform="translate(2875.027 -326.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4858" data-name="Rechteck 4858" width="24" height="4" rx="2" transform="translate(2867.027 -458.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4878" data-name="Rechteck 4878" width="24" height="4" rx="2" transform="translate(2859.027 -362.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4860" data-name="Rechteck 4860" width="24" height="4" rx="2" transform="translate(2867.027 -410.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4871" data-name="Rechteck 4871" width="21" height="4" rx="2" transform="translate(2872.027 -305)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4859" data-name="Rechteck 4859" width="8" height="4" rx="2" transform="translate(2899.027 -458.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4879" data-name="Rechteck 4879" width="16" height="4" rx="2" transform="translate(2891.027 -362.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4861" data-name="Rechteck 4861" width="8" height="4" rx="2" transform="translate(2899.027 -410.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4872" data-name="Rechteck 4872" width="10" height="4" rx="2" transform="translate(2897.027 -305)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4887" data-name="Rechteck 4887" width="32" height="4" rx="2" transform="translate(2635.027 -398.5)" fill="#47d868" opacity="0.5"/>
+        <rect id="Rechteck_4888" data-name="Rechteck 4888" width="24" height="4" rx="2" transform="translate(2675.027 -398.5)" fill="#47d868" opacity="0.5"/>
+      </g>
+    </g>
+    <g id="Gruppe_19208" data-name="Gruppe 19208" transform="translate(11.5 -2974.012)">
+      <g id="Gruppe_19207" data-name="Gruppe 19207" transform="translate(-2170.088 -2522.116)">
+        <g id="Gruppe_19195" data-name="Gruppe 19195" transform="translate(2431 5728)">
+          <g transform="matrix(1, 0, 0, 1, -272.41, -231.87)" filter="url(#Pfad_32614)">
+            <path id="Pfad_32614-2" data-name="Pfad 32614" d="M19.695,0H759.481a19.7,19.7,0,0,1,19.695,19.695V545.3a19.7,19.7,0,0,1-19.695,19.695H19.695A19.7,19.7,0,0,1,0,545.3V19.695A19.7,19.7,0,0,1,19.695,0Z" transform="translate(272.41 231.87)" fill="#fff"/>
+          </g>
+          <path id="Pfad_31483" data-name="Pfad 31483" d="M19.695,0H759.481a19.7,19.7,0,0,1,19.695,19.695V49.237H0V19.695A19.7,19.7,0,0,1,19.695,0Z" fill="#d8d8d8"/>
+          <rect id="Maximize-2" data-name="Maximize" width="8.616" height="8.616" rx="4.308" transform="translate(67.701 20.926)" fill="#28ca42"/>
+          <rect id="Minimize-2" data-name="Minimize" width="8.616" height="8.616" rx="4.308" transform="translate(54.776 20.926)" fill="#ffbe2f"/>
+          <rect id="Close-2" data-name="Close" width="8.616" height="8.616" rx="4.308" transform="translate(41.851 20.926)" fill="#ff5f57"/>
+          <g data-type="innerShadowGroup">
+            <rect id="Address_bar-2" data-name="Address bar" width="498.525" height="19.695" rx="2" transform="translate(96.012 14.771)" fill="#fff"/>
+            <g transform="matrix(1, 0, 0, 1, -272.41, -231.87)" filter="url(#Address_bar)">
+              <rect id="Address_bar-3" data-name="Address bar" width="498.525" height="19.695" rx="2" transform="translate(368.42 246.64)" fill="#fff"/>
+            </g>
+          </g>
+          <text id="https" transform="translate(105.86 27.695)" fill="gray" font-size="9" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">learning.multamedio.de</tspan></text>
+          <path id="Pfad_31201" data-name="Pfad 31201" d="M-10338.443,15278.5h-19.694a.5.5,0,0,1-.5-.5.5.5,0,0,1,.5-.5h19.694a.5.5,0,0,1,.5.5A.5.5,0,0,1-10338.443,15278.5Z" transform="translate(10966.215 -15258.306)" fill="#707070"/>
+          <path id="Pfad_31202" data-name="Pfad 31202" d="M-10338.443,15278.5h-19.694a.5.5,0,0,1-.5-.5.5.5,0,0,1,.5-.5h19.694a.5.5,0,0,1,.5.5A.5.5,0,0,1-10338.443,15278.5Z" transform="translate(10966.215 -15253.382)" fill="#707070"/>
+          <path id="Pfad_31203" data-name="Pfad 31203" d="M-10338.443,15278.5h-19.694a.5.5,0,0,1-.5-.5.5.5,0,0,1,.5-.5h19.694a.5.5,0,0,1,.5.5A.5.5,0,0,1-10338.443,15278.5Z" transform="translate(10966.215 -15248.458)" fill="#707070"/>
+          <path id="Pfad_31201-2" data-name="Pfad 31201" d="M-10345.357,15278.5h-12.78a.5.5,0,0,1-.5-.5.5.5,0,0,1,.5-.5h12.78a.5.5,0,0,1,.5.5A.5.5,0,0,1-10345.357,15278.5Z" transform="translate(10492.309 -15218.916)" fill="#fff"/>
+          <path id="Pfad_31202-2" data-name="Pfad 31202" d="M-10345.357,15278.5h-12.78a.5.5,0,0,1-.5-.5.5.5,0,0,1,.5-.5h12.78a.5.5,0,0,1,.5.5A.5.5,0,0,1-10345.357,15278.5Z" transform="translate(10492.309 -15213.992)" fill="#fff"/>
+          <path id="Pfad_31203-2" data-name="Pfad 31203" d="M-10345.357,15278.5h-12.78a.5.5,0,0,1-.5-.5.5.5,0,0,1,.5-.5h12.78a.5.5,0,0,1,.5.5A.5.5,0,0,1-10345.357,15278.5Z" transform="translate(10492.309 -15209.068)" fill="#fff"/>
+          <rect id="Rechteck_5996" data-name="Rechteck 5996" width="777.945" height="39.39" transform="translate(0 49.237)" fill="#06a"/>
+          <rect id="Rechteck_5211" data-name="Rechteck 5211" width="19.695" height="19.695" rx="8" transform="translate(585.921 59.084)" fill="#cbcbcb"/>
+          <path id="Pfad_32267" data-name="Pfad 32267" d="M8.924,8.924A2.462,2.462,0,1,0,6.462,6.462,2.461,2.461,0,0,0,8.924,8.924Zm0,1.231C7.28,10.155,4,10.979,4,12.616v1.231h9.847V12.616C13.847,10.979,10.567,10.155,8.924,10.155Z" transform="translate(586.844 59.024)" fill="#fff"/>
+          <rect id="Rechteck_5598" data-name="Rechteck 5598" width="19.695" height="19.695" rx="8" transform="translate(704.089 59.084)" fill="#cbcbcb"/>
+          <path id="Pfad_32309" data-name="Pfad 32309" d="M0,0H19.695V19.695H0Z" transform="translate(704.089 68.932)" fill="none"/>
+          <path id="Pfad_32311" data-name="Pfad 32311" d="M0,0H19.695V19.695H0Z" transform="translate(704.089 68.932)" fill="none"/>
+          <path id="Pfad_32312" data-name="Pfad 32312" d="M3,13.171h9.847v-1.2H3Zm0-2.988h9.847v-1.2H3ZM3,6V7.2h9.847V6Z" transform="translate(706.013 59.346)" fill="#fff"/>
+          <rect id="Rechteck_5997" data-name="Rechteck 5997" width="72.625" height="2.462" rx="1.231" transform="translate(615.463 64.008)" fill="#bfbfbf"/>
+          <rect id="Rechteck_5998" data-name="Rechteck 5998" width="42.217" height="2.462" rx="1.231" transform="translate(615.463 71.394)" fill="#bfbfbf"/>
+          <rect id="Rechteck_5999" data-name="Rechteck 5999" width="132.94" height="19.695" rx="8" transform="translate(433.286 59.084)" fill="#f5f5f5"/>
+          <rect id="Rechteck_5215" data-name="Rechteck 5215" width="19.695" height="19.695" rx="8" transform="translate(546.531 59.084)" fill="#cbcbcb"/>
+          <path id="Pfad_32271" data-name="Pfad 32271" d="M10.038,9.193H9.593l-.158-.152a3.665,3.665,0,1,0-.394.394l.152.158v.445l2.815,2.81.839-.839Zm-3.378,0A2.534,2.534,0,1,1,9.193,6.66,2.53,2.53,0,0,1,6.66,9.193Z" transform="translate(548.455 61.008)" fill="#fff"/>
+          <path id="Pfad_32593" data-name="Pfad 32593" d="M2743.913-15534.5H2222v-1h521.913Z" transform="translate(-2004.126 15751.643)" fill="#cbcbcb"/>
+          <path id="Pfad_32613" data-name="Pfad 32613" d="M2556.812-15534.5H2222v-1h334.812Z" transform="translate(-2004.126 15919.049)" fill="#cbcbcb"/>
+          <path id="Pfad_33120" data-name="Pfad 33120" d="M2.023,26V6.094H7.9A9.221,9.221,0,0,1,12.585,7.27a8.017,8.017,0,0,1,3.165,3.336,10.589,10.589,0,0,1,1.121,4.949v1a10.545,10.545,0,0,1-1.128,4.977,7.921,7.921,0,0,1-3.213,3.309A9.648,9.648,0,0,1,7.752,26ZM5.482,8.883V23.238H7.738a5.194,5.194,0,0,0,4.177-1.7A7.414,7.414,0,0,0,13.4,16.648V15.541a7.608,7.608,0,0,0-1.408-4.949A4.992,4.992,0,0,0,7.9,8.883ZM28.834,26a5.127,5.127,0,0,1-.383-1.381,5.172,5.172,0,0,1-3.883,1.654A5.219,5.219,0,0,1,20.932,25a4.068,4.068,0,0,1-1.408-3.145,4.2,4.2,0,0,1,1.757-3.63A8.514,8.514,0,0,1,26.3,16.963h2.037v-.971a2.591,2.591,0,0,0-.643-1.839,2.547,2.547,0,0,0-1.955-.69,2.926,2.926,0,0,0-1.859.567,1.756,1.756,0,0,0-.725,1.442H19.838a3.687,3.687,0,0,1,.807-2.276,5.374,5.374,0,0,1,2.194-1.661,7.708,7.708,0,0,1,3.1-.6,6.207,6.207,0,0,1,4.143,1.306,4.656,4.656,0,0,1,1.586,3.671v6.672a7.561,7.561,0,0,0,.561,3.186V26Zm-3.65-2.393a3.779,3.779,0,0,0,1.853-.479,3.2,3.2,0,0,0,1.306-1.285V19.055H26.551a4.9,4.9,0,0,0-2.775.643,2.082,2.082,0,0,0-.93,1.818,1.941,1.941,0,0,0,.636,1.524A2.462,2.462,0,0,0,25.184,23.607ZM43.436,21.98a1.506,1.506,0,0,0-.731-1.354,7.779,7.779,0,0,0-2.427-.82,12.475,12.475,0,0,1-2.83-.9,3.777,3.777,0,0,1-2.488-3.486,3.938,3.938,0,0,1,1.613-3.2,6.378,6.378,0,0,1,4.1-1.285,6.636,6.636,0,0,1,4.286,1.313,4.165,4.165,0,0,1,1.634,3.4H43.271a2.047,2.047,0,0,0-.711-1.593,2.725,2.725,0,0,0-1.887-.636,2.944,2.944,0,0,0-1.784.506,1.6,1.6,0,0,0-.69,1.354,1.347,1.347,0,0,0,.643,1.189,8.836,8.836,0,0,0,2.6.854,12.3,12.3,0,0,1,3.069,1.025,4.346,4.346,0,0,1,1.654,1.429A3.643,3.643,0,0,1,46.7,21.8a3.854,3.854,0,0,1-1.654,3.233,7.054,7.054,0,0,1-4.334,1.237,7.649,7.649,0,0,1-3.24-.656,5.333,5.333,0,0,1-2.215-1.8,4.272,4.272,0,0,1-.793-2.475h3.227a2.341,2.341,0,0,0,.889,1.812,3.453,3.453,0,0,0,2.174.636,3.36,3.36,0,0,0,2-.5A1.545,1.545,0,0,0,43.436,21.98Zm9.434-9.16a5.2,5.2,0,0,1,4.115-1.887q4.73,0,4.8,5.4V26H58.461V16.457A2.921,2.921,0,0,0,57.8,14.29a2.711,2.711,0,0,0-1.948-.636,3.2,3.2,0,0,0-2.98,1.777V26H49.547V5h3.322Zm25.252,5.934a8.886,8.886,0,0,1-1.538,5.482,5.01,5.01,0,0,1-4.231,2.037A4.826,4.826,0,0,1,68.3,24.4L68.141,26H65.133V5h3.322v7.629a4.809,4.809,0,0,1,3.869-1.7,5.067,5.067,0,0,1,4.252,2.01,9.033,9.033,0,0,1,1.545,5.619ZM74.8,18.467a6.28,6.28,0,0,0-.848-3.609,2.823,2.823,0,0,0-2.461-1.2,3.085,3.085,0,0,0-3.035,1.887v6.1a3.116,3.116,0,0,0,3.063,1.928A2.8,2.8,0,0,0,73.924,22.4a6.086,6.086,0,0,0,.875-3.514Zm5.482,0a8.723,8.723,0,0,1,.861-3.917,6.291,6.291,0,0,1,2.42-2.68,6.818,6.818,0,0,1,3.582-.937A6.462,6.462,0,0,1,92,12.861a7.582,7.582,0,0,1,2.017,5.113l.014.779a8.8,8.8,0,0,1-.841,3.91,6.215,6.215,0,0,1-2.406,2.666,6.868,6.868,0,0,1-3.616.943,6.417,6.417,0,0,1-5.011-2.085,7.985,7.985,0,0,1-1.88-5.558Zm3.322.287a5.961,5.961,0,0,0,.943,3.575,3.067,3.067,0,0,0,2.625,1.292,3.033,3.033,0,0,0,2.618-1.312,6.584,6.584,0,0,0,.937-3.842,5.884,5.884,0,0,0-.964-3.555,3.249,3.249,0,0,0-5.2-.021A6.459,6.459,0,0,0,83.6,18.754ZM105.684,26a5.127,5.127,0,0,1-.383-1.381,5.589,5.589,0,0,1-7.52.383,4.068,4.068,0,0,1-1.408-3.145,4.2,4.2,0,0,1,1.757-3.63,8.514,8.514,0,0,1,5.024-1.265h2.037v-.971a2.591,2.591,0,0,0-.643-1.839,2.547,2.547,0,0,0-1.955-.69,2.926,2.926,0,0,0-1.859.567,1.756,1.756,0,0,0-.725,1.442H96.688a3.687,3.687,0,0,1,.807-2.276,5.374,5.374,0,0,1,2.194-1.661,7.708,7.708,0,0,1,3.1-.6,6.207,6.207,0,0,1,4.143,1.306,4.656,4.656,0,0,1,1.586,3.671v6.672a7.561,7.561,0,0,0,.561,3.186V26Zm-3.65-2.393a3.779,3.779,0,0,0,1.853-.479,3.2,3.2,0,0,0,1.306-1.285V19.055H103.4a4.9,4.9,0,0,0-2.775.643,2.082,2.082,0,0,0-.93,1.818,1.941,1.941,0,0,0,.636,1.524A2.462,2.462,0,0,0,102.033,23.607Zm17.705-9.365a8.221,8.221,0,0,0-1.354-.109,3.047,3.047,0,0,0-3.076,1.75V26h-3.322V11.207h3.172l.082,1.654a3.743,3.743,0,0,1,3.336-1.928,3.11,3.11,0,0,1,1.176.191Zm1.217,4.252A8.8,8.8,0,0,1,122.541,13a5.081,5.081,0,0,1,4.252-2.071,4.828,4.828,0,0,1,3.8,1.641V5h3.322V26h-3.008l-.164-1.531a4.9,4.9,0,0,1-3.979,1.8,5.053,5.053,0,0,1-4.2-2.092A9.117,9.117,0,0,1,120.955,18.494Zm3.322.287a6.158,6.158,0,0,0,.868,3.521,2.817,2.817,0,0,0,2.468,1.265,3.138,3.138,0,0,0,2.98-1.818V15.432a3.09,3.09,0,0,0-2.953-1.777,2.838,2.838,0,0,0-2.488,1.278A6.857,6.857,0,0,0,124.277,18.781Z" transform="translate(39.39 118.169)" fill="#acacac"/>
+          <path id="Pfad_32305" data-name="Pfad 32305" d="M0,0H14.771V14.771H0Z" transform="translate(529.298 276.958)" fill="none"/>
+          <path id="Pfad_32264" data-name="Pfad 32264" d="M0,0H22.157V22.157H0Z" transform="translate(525.605 322.503)" fill="none"/>
+          <path id="Pfad_32265" data-name="Pfad 32265" d="M8.57,15.386,4.692,11.508,3.4,12.8l5.17,5.17L19.648,6.892,18.356,5.6Z" transform="translate(525.344 322.073)" fill="#fff"/>
+          <path id="Pfad_32264-2" data-name="Pfad 32264" d="M0,0H29.542V29.542H0Z" transform="translate(521.912 318.81)" fill="none"/>
+          <path id="Pfad_32282" data-name="Pfad 32282" d="M0,0H29.542V29.542H0Z" transform="translate(521.912 318.81)" fill="none"/>
+          <path id="Pfad_32287" data-name="Pfad 32287" d="M0,0H29.542V29.542H0Z" transform="translate(521.912 318.81)" fill="none"/>
+          <path id="Pfad_32288" data-name="Pfad 32288" d="M9.378,2a7.386,7.386,0,1,0,7.393,7.386A7.382,7.382,0,0,0,9.378,2Zm.007,13.294a5.908,5.908,0,1,1,5.908-5.908A5.907,5.907,0,0,1,9.386,15.294Z" transform="translate(527.298 324.195)" fill="#fff"/>
+          <path id="Pfad_32289" data-name="Pfad 32289" d="M12.108,7H11v4.431l3.877,2.326.554-.908-3.323-1.972Z" transform="translate(524.945 322.889)" fill="#fff"/>
+          <path id="Pfad_32309-2" data-name="Pfad 32309" d="M0,0H29.542V29.542H0Z" transform="translate(521.912 476.368)" fill="none"/>
+          <path id="Pfad_32314" data-name="Pfad 32314" d="M0,0H29.542V29.542H0Z" transform="translate(521.912 476.368)" fill="none"/>
+          <path id="Pfad_32309-3" data-name="Pfad 32309" d="M0,0H29.542V29.542H0Z" transform="translate(521.912 368.047)" fill="none"/>
+          <path id="Pfad_32316" data-name="Pfad 32316" d="M0,0H29.542V29.542H0Z" transform="translate(521.912 368.047)" fill="none"/>
+          <path id="Pfad_32279" data-name="Pfad 32279" d="M8,5V21.711l13.13-8.355Z" transform="translate(104.835 244.58)" fill="#fff"/>
+          <path id="Pfad_32279-2" data-name="Pfad 32279" d="M8,5V21.711l13.13-8.355Z" transform="translate(104.835 352.901)" fill="#fff"/>
+          <rect id="Rechteck_5220" data-name="Rechteck 5220" width="118.169" height="118.169" transform="translate(291.729 230.183)" fill="none"/>
+          <path id="Pfad_32264-3" data-name="Pfad 32264" d="M0,0H118.169V118.169H0Z" transform="translate(291.729 230.183)" fill="none"/>
+          <path id="Pfad_32282-2" data-name="Pfad 32282" d="M0,0H118.169V118.169H0Z" transform="translate(291.729 230.183)" fill="none"/>
+          <text id="Themen" transform="translate(20.926 222.257)" fill="#fff" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Themen</tspan></text>
+          <rect id="Rechteck_6052" data-name="Rechteck 6052" width="78.779" height="4.924" rx="2.462" transform="translate(217.874 396.358)" fill="#d2d4d5"/>
+          <rect id="Rechteck_6054" data-name="Rechteck 6054" width="78.779" height="4.924" rx="2.462" transform="translate(217.874 423.438)" fill="#d2d4d5"/>
+          <rect id="Rechteck_6051" data-name="Rechteck 6051" width="147.711" height="4.924" rx="2.462" transform="translate(217.874 408.667)" fill="#d2d4d5"/>
+          <rect id="Rechteck_6053" data-name="Rechteck 6053" width="147.711" height="4.924" rx="2.462" transform="translate(217.874 435.748)" fill="#d2d4d5"/>
+          <rect id="Rechteck_6048" data-name="Rechteck 6048" width="157.558" height="98.474" rx="8" transform="translate(404.975 236.338)" fill="#f5f5f5"/>
+          <rect id="Rechteck_6060" data-name="Rechteck 6060" width="157.558" height="98.474" rx="8" transform="translate(582.228 236.338)" fill="#f5f5f5"/>
+          <rect id="Rechteck_6050" data-name="Rechteck 6050" width="157.558" height="98.474" rx="8" transform="translate(227.721 236.338)" fill="#f5f5f5"/>
+          <g id="play_16x16" transform="translate(468.983 270.804)">
+            <rect id="Rechteck_5219" data-name="Rechteck 5219" width="30.773" height="30.773" rx="13" fill="#06a"/>
+            <path id="Pfad_32279-3" data-name="Pfad 32279" d="M8,5V19.687l11.54-7.344Z" transform="translate(1.617 2.693)" fill="#fff"/>
+          </g>
+          <g id="play_16x16-2" data-name="play_16x16" transform="translate(646.236 270.804)">
+            <rect id="Rechteck_5219-2" data-name="Rechteck 5219" width="30.773" height="30.773" rx="13" fill="#06a"/>
+            <path id="Pfad_32279-4" data-name="Pfad 32279" d="M8,5V19.687l11.54-7.344Z" transform="translate(1.617 2.693)" fill="#fff"/>
+          </g>
+          <g id="play_16x16-3" data-name="play_16x16" transform="translate(291.729 270.804)">
+            <rect id="Rechteck_5219-3" data-name="Rechteck 5219" width="30.773" height="30.773" rx="13" fill="#06a"/>
+            <path id="Pfad_32279-5" data-name="Pfad 32279" d="M8,5V19.687l11.54-7.344Z" transform="translate(1.617 2.693)" fill="#fff"/>
+          </g>
+          <g id="Gruppe_19206" data-name="Gruppe 19206" transform="translate(1.231 507.171)">
+            <path id="Rechteck_4412" data-name="Rechteck 4412" d="M0,0H777.945a0,0,0,0,1,0,0V43.084a16,16,0,0,1-16,16H16a16,16,0,0,1-16-16V0A0,0,0,0,1,0,0Z" transform="translate(0)" fill="#e3eff8"/>
+            <path id="Pfad_31213" data-name="Pfad 31213" d="M0,0H17.233V17.233H0Z" transform="translate(480.061 36.928)" fill="none"/>
+          </g>
+          <rect id="Rechteck_6058" data-name="Rechteck 6058" width="78.779" height="4.924" rx="2.462" transform="translate(30.773 516.989)" fill="#d2d4d5"/>
+          <rect id="Rechteck_6056" data-name="Rechteck 6056" width="39.39" height="4.924" rx="2.462" transform="translate(129.247 516.989)" fill="#d2d4d5"/>
+          <rect id="Rechteck_6057" data-name="Rechteck 6057" width="108.321" height="4.924" rx="2.462" transform="translate(30.773 531.76)" fill="#d2d4d5"/>
+          <rect id="Rechteck_6059" data-name="Rechteck 6059" width="108.321" height="4.924" rx="2.462" transform="translate(148.942 531.76)" fill="#d2d4d5"/>
+          <path id="Rechteck_6061" data-name="Rechteck 6061" d="M0,0H188.948a8,8,0,0,1,8,8V257.88a8,8,0,0,1-8,8H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1.231 187.101)" fill="#06a"/>
+          <rect id="Rechteck_6062" data-name="Rechteck 6062" width="78.779" height="4.924" rx="2.462" transform="translate(20.926 246.185)" fill="#e3eff8"/>
+          <rect id="Rechteck_6063" data-name="Rechteck 6063" width="147.711" height="4.924" rx="2.462" transform="translate(20.926 260.956)" fill="#e3eff8"/>
+          <rect id="Rechteck_6064" data-name="Rechteck 6064" width="78.779" height="4.924" rx="2.462" transform="translate(20.926 275.727)" fill="#e3eff8"/>
+          <rect id="Rechteck_6065" data-name="Rechteck 6065" width="147.711" height="4.924" rx="2.462" transform="translate(20.926 290.498)" fill="#e3eff8"/>
+          <rect id="Rechteck_6066" data-name="Rechteck 6066" width="78.779" height="4.924" rx="2.462" transform="translate(20.926 344.659)" fill="#e3eff8"/>
+          <rect id="Rechteck_6067" data-name="Rechteck 6067" width="147.711" height="4.924" rx="2.462" transform="translate(20.926 359.43)" fill="#e3eff8"/>
+        </g>
+        <text id="Übersicht" transform="translate(2648.874 5930.563)" fill="#545858" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Übersicht</tspan></text>
+        <text id="Meine_Videos" data-name="Meine Videos" transform="translate(2650.88 6102.892)" fill="#545858" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Meine Videos</tspan></text>
+      </g>
+    </g>
+    <g id="Gruppe_19809" data-name="Gruppe 19809" transform="translate(3476 6005)">
+      <g id="Gruppe_19808" data-name="Gruppe 19808" transform="translate(-2572 -5361)">
+        <g id="Gruppe_19807" data-name="Gruppe 19807">
+          <g id="Gruppe_18763" data-name="Gruppe 18763" transform="translate(0 0)">
+            <g transform="matrix(1, 0, 0, 1, -904, -644)" filter="url(#Rechteck_5480)">
+              <rect id="Rechteck_5480-4" data-name="Rechteck 5480" width="209" height="195" rx="16" transform="translate(904 644)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+        <path id="Pfad_33094" data-name="Pfad 33094" d="M9.275,0h148.4a9.275,9.275,0,0,1,9.275,9.275V115.941a9.275,9.275,0,0,1-9.275,9.275H9.275A9.275,9.275,0,0,1,0,115.941V9.275A9.275,9.275,0,0,1,9.275,0Z" transform="translate(20.869 32.464)" fill="#ebeceb"/>
+      </g>
+      <g id="play_16x16-4" data-name="play_16x16" transform="translate(-2505 -5303)">
+        <rect id="Rechteck_5219-4" data-name="Rechteck 5219" width="74" height="74" rx="16" fill="#fb2555"/>
+        <path id="Pfad_32279-6" data-name="Pfad 32279" d="M8,5V40.415L35.826,22.707Z" transform="translate(19.826 15.238)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Gruppe_19797" data-name="Gruppe 19797" transform="translate(-1017 -1125)">
+      <g id="Gruppe_18763-2" data-name="Gruppe 18763" transform="translate(1230 1692)">
+        <g transform="matrix(1, 0, 0, 1, -213, -567)" filter="url(#Rechteck_5480-2)">
+          <rect id="Rechteck_5480-5" data-name="Rechteck 5480" width="180" height="272" rx="16" transform="translate(213 567)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="image_16x16" transform="translate(1256 1713)">
+        <rect id="Rechteck_5523" data-name="Rechteck 5523" width="128" height="128" rx="8" fill="#fdb444"/>
+        <g id="image_black_24dp" transform="translate(32 32)">
+          <path id="Pfad_31285" data-name="Pfad 31285" d="M0,0H64V64H0Z" fill="none"/>
+          <path id="Pfad_31286" data-name="Pfad 31286" d="M51,45.667V8.333A5.349,5.349,0,0,0,45.667,3H8.333A5.349,5.349,0,0,0,3,8.333V45.667A5.349,5.349,0,0,0,8.333,51H45.667A5.349,5.349,0,0,0,51,45.667ZM17.667,31l6.667,8.027L33.667,27l12,16H8.333Z" transform="translate(5 5)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Gruppe_19779" data-name="Gruppe 19779" transform="translate(1256 1860)">
+        <rect id="Rechteck_5331" data-name="Rechteck 5331" width="128" height="4" rx="2" transform="translate(0 12)" fill="#e6e6e6"/>
+        <rect id="Rechteck_5332" data-name="Rechteck 5332" width="100.5" height="4" rx="2" transform="translate(0 48)" fill="#e6e6e6"/>
+        <rect id="Rechteck_5333" data-name="Rechteck 5333" width="69" height="4" rx="2" transform="translate(0 24)" fill="#e6e6e6"/>
+        <rect id="Rechteck_5334" data-name="Rechteck 5334" width="69" height="4" rx="2" transform="translate(0 60)" fill="#e6e6e6"/>
+        <rect id="Rechteck_5335" data-name="Rechteck 5335" width="108" height="4" rx="2" fill="#e6e6e6"/>
+        <rect id="Rechteck_5336" data-name="Rechteck 5336" width="122" height="4" rx="2" transform="translate(0 36)" fill="#e6e6e6"/>
+      </g>
+    </g>
+    <g id="Gruppe_19804" data-name="Gruppe 19804" transform="translate(-444 -1610)">
+      <g id="Gruppe_18763-3" data-name="Gruppe 18763" transform="translate(1230 1782.816)">
+        <g transform="matrix(1, 0, 0, 1, -786, -172.82)" filter="url(#Rechteck_5480-3)">
+          <rect id="Rechteck_5480-6" data-name="Rechteck 5480" width="349" height="181" rx="16" transform="translate(786 173)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Gruppe_19779-2" data-name="Gruppe 19779" transform="translate(1256 1860)">
+        <rect id="Rechteck_5331-2" data-name="Rechteck 5331" width="128" height="4" rx="2" transform="translate(0 12)" fill="#e6e6e6"/>
+        <rect id="Rechteck_5332-2" data-name="Rechteck 5332" width="100.5" height="4" rx="2" transform="translate(0 48)" fill="#e6e6e6"/>
+        <rect id="Rechteck_5333-2" data-name="Rechteck 5333" width="69" height="4" rx="2" transform="translate(0 24)" fill="#e6e6e6"/>
+        <rect id="Rechteck_5334-2" data-name="Rechteck 5334" width="69" height="4" rx="2" transform="translate(0 60)" fill="#e6e6e6"/>
+        <rect id="Rechteck_5335-2" data-name="Rechteck 5335" width="108" height="4" rx="2" fill="#e6e6e6"/>
+        <rect id="Rechteck_5336-2" data-name="Rechteck 5336" width="122" height="4" rx="2" transform="translate(0 36)" fill="#e6e6e6"/>
+      </g>
+      <g id="Gruppe_19799" data-name="Gruppe 19799" transform="translate(1418 1860)">
+        <rect id="Rechteck_5331-3" data-name="Rechteck 5331" width="128" height="4" rx="2" transform="translate(0 12)" fill="#e6e6e6"/>
+        <rect id="Rechteck_5332-3" data-name="Rechteck 5332" width="100.5" height="4" rx="2" transform="translate(0 48)" fill="#e6e6e6"/>
+        <rect id="Rechteck_5333-3" data-name="Rechteck 5333" width="69" height="4" rx="2" transform="translate(0 24)" fill="#e6e6e6"/>
+        <rect id="Rechteck_5334-3" data-name="Rechteck 5334" width="69" height="4" rx="2" transform="translate(0 60)" fill="#e6e6e6"/>
+        <rect id="Rechteck_5335-3" data-name="Rechteck 5335" width="108" height="4" rx="2" fill="#e6e6e6"/>
+        <rect id="Rechteck_5336-3" data-name="Rechteck 5336" width="122" height="4" rx="2" transform="translate(0 36)" fill="#e6e6e6"/>
+      </g>
+      <path id="Pfad_33119" data-name="Pfad 33119" d="M6.508,6.094,12.25,21.352,17.979,6.094h4.471V26H19V19.438l.342-8.777L13.467,26H10.992L5.127,10.674l.342,8.764V26H2.023V6.094ZM32.73,26.273a6.873,6.873,0,0,1-5.12-1.989,7.216,7.216,0,0,1-1.962-5.3v-.41a8.876,8.876,0,0,1,.854-3.958A6.5,6.5,0,0,1,28.9,11.9a6.343,6.343,0,0,1,3.445-.971,5.806,5.806,0,0,1,4.669,1.928,8.151,8.151,0,0,1,1.647,5.455v1.34H29a4.442,4.442,0,0,0,1.224,2.9,3.674,3.674,0,0,0,2.7,1.066,4.5,4.5,0,0,0,3.719-1.846l1.791,1.709a5.981,5.981,0,0,1-2.372,2.058A7.426,7.426,0,0,1,32.73,26.273Zm-.4-12.674a2.8,2.8,0,0,0-2.208.957,4.96,4.96,0,0,0-1.073,2.666h6.33v-.246a4.038,4.038,0,0,0-.889-2.522A2.776,2.776,0,0,0,32.334,13.6ZM44.775,26H41.453V11.207h3.322ZM41.248,7.365a1.763,1.763,0,0,1,.485-1.271,1.833,1.833,0,0,1,1.388-.506,1.856,1.856,0,0,1,1.395.506,1.75,1.75,0,0,1,.492,1.271,1.709,1.709,0,0,1-.492,1.251,1.871,1.871,0,0,1-1.395.5,1.847,1.847,0,0,1-1.388-.5A1.722,1.722,0,0,1,41.248,7.365Zm10.227,3.842.1,1.709a5.319,5.319,0,0,1,4.307-1.982q4.621,0,4.7,5.291V26H57.258V16.416a3.046,3.046,0,0,0-.608-2.085,2.559,2.559,0,0,0-1.989-.677,3.2,3.2,0,0,0-2.994,1.818V26H48.344V11.207ZM74.908,26H71.463V6.094h3.445Zm7.014-14.793.1,1.709a5.319,5.319,0,0,1,4.307-1.982q4.621,0,4.7,5.291V26H87.705V16.416a3.046,3.046,0,0,0-.608-2.085,2.559,2.559,0,0,0-1.989-.677,3.2,3.2,0,0,0-2.994,1.818V26H78.791V11.207ZM97.686,12.82a5.2,5.2,0,0,1,4.115-1.887q4.73,0,4.8,5.4V26h-3.322V16.457a2.921,2.921,0,0,0-.663-2.167,2.711,2.711,0,0,0-1.948-.636,3.2,3.2,0,0,0-2.98,1.777V26H94.363V5h3.322ZM118.795,26a5.127,5.127,0,0,1-.383-1.381,5.589,5.589,0,0,1-7.52.383,4.068,4.068,0,0,1-1.408-3.145,4.2,4.2,0,0,1,1.757-3.63,8.514,8.514,0,0,1,5.024-1.265H118.3v-.971a2.591,2.591,0,0,0-.643-1.839,2.547,2.547,0,0,0-1.955-.69,2.926,2.926,0,0,0-1.859.567,1.756,1.756,0,0,0-.725,1.442H109.8a3.687,3.687,0,0,1,.807-2.276,5.374,5.374,0,0,1,2.194-1.661,7.708,7.708,0,0,1,3.1-.6,6.207,6.207,0,0,1,4.143,1.306,4.656,4.656,0,0,1,1.586,3.671v6.672a7.561,7.561,0,0,0,.561,3.186V26Zm-3.65-2.393A3.779,3.779,0,0,0,117,23.129a3.2,3.2,0,0,0,1.306-1.285V19.055h-1.791a4.9,4.9,0,0,0-2.775.643,2.082,2.082,0,0,0-.93,1.818,1.941,1.941,0,0,0,.636,1.524A2.462,2.462,0,0,0,115.145,23.607ZM128.639,26h-3.322V5h3.322Zm7.779-18.389v3.6h2.611v2.461h-2.611v8.258a1.819,1.819,0,0,0,.335,1.224,1.553,1.553,0,0,0,1.2.376,5.118,5.118,0,0,0,1.162-.137v2.57a8.182,8.182,0,0,1-2.187.314q-3.828,0-3.828-4.225V13.668h-2.434V11.207H133.1v-3.6Z" transform="translate(1256 1803)" fill="#acacac"/>
+    </g>
+  </g>
+</svg>

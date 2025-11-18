@@ -1,6 +1,7 @@
 <script lang="ts">
 import type { ButtonProps, ComponentConfig } from '@nuxt/ui'
 import type { AppConfig } from 'vue'
+import { page } from '#build/ui'
 import theme from '#build/ui/page-hero'
 import { tv } from '@nuxt/ui/runtime/utils/tv.js'
 import { Primitive } from 'reka-ui'
@@ -8,28 +9,12 @@ import { Primitive } from 'reka-ui'
 type PageHero = ComponentConfig<typeof theme, AppConfig, 'pageHero'>
 
 interface PageHeroProps {
-  /**
-   * The element or component this component should render as.
-   * @defaultValue 'div'
-   */
   as?: any
   headline?: string | undefined
   title?: string
   description?: string
-  /**
-   * Display a list of Button under the description.
-   * `{ size: 'xl' }`{lang="ts-type"}
-   */
   links?: ButtonProps[]
-  /**
-   * The orientation of the page hero.
-   * @defaultValue 'vertical'
-   */
   orientation?: PageHero['variants']['orientation']
-  /**
-   * Reverse the order of the default slot.
-   * @defaultValue false
-   */
   reverse?: boolean
   class?: any
   ui?: PageHero['slots']
@@ -37,15 +22,11 @@ interface PageHeroProps {
 
 interface PageHeroSlots {
   top: () => any
-  header: () => any
   headline: () => any
   title: () => any
   description: () => any
-  body: () => any
-  footer: () => any
   links: () => any
-  default: () => any
-  bottom: () => any
+  right: () => any
 }
 </script>
 
@@ -135,19 +116,7 @@ const ui = computed(() => tv({ extend: tv(theme) })({
           </div>
         </div>
 
-        <div class="relative">
-          <div class="aspect-square rounded-2xl bg-muted overflow-hidden">
-            <img src="/images/team.jpg" alt="Team collaboration" class="w-full h-full object-cover">
-          </div>
-          <div class="absolute -bottom-6 -left-6 bg-default border border-default rounded-xl p-6 shadow-lg">
-            <div class="text-sm text-muted mb-1">
-              Kundenzufriedenheit
-            </div>
-            <div class="text-2xl font-bold">
-              98%
-            </div>
-          </div>
-        </div>
+        <slot name="right" />
       </div>
     </UContainer>
   </Primitive>
