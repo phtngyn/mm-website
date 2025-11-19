@@ -3,16 +3,30 @@ title: Maßgeschneiderte Software­lösungen
 description: Geht nicht, gibt's nicht! Wir sind Ihr Full-Service IT-Dienstleister mit Pioniergeist und Start-Up-Mentalität für digitale Transformation.
 ---
 
-::u-blog-post
+::u-page-section
 ---
-date: 2024-11-25
-description: Discover Nuxt Icon v1 - a modern, versatile, and customizable icon
-  solution for your Nuxt projects.
-title: Introducing Nuxt Icon v1
+description: Nuxt UI provides a comprehensive suite of components and utilities
+  to help you build beautiful and accessible web applications with Vue and Nuxt.
+title: Beautiful Vue UI components
 ---
-::
-
-::u-button{label="Test Button"}
+#features
+  :::u-blog-posts
+  ---
+  posts:
+    - date: 2024-11-25
+      description: Discover Nuxt Icon v1 - a modern, versatile, and customizable icon
+        solution for your Nuxt projects.
+      title: Introducing Nuxt Icon v1
+    - date: 2024-11-25
+      description: Discover Nuxt Icon v1 - a modern, versatile, and customizable icon
+        solution for your Nuxt projects.
+      title: Introducing Nuxt Icon v1
+    - date: 2024-11-25
+      description: Discover Nuxt Icon v1 - a modern, versatile, and customizable icon
+        solution for your Nuxt projects.
+      title: Introducing Nuxt Icon v1
+  ---
+  :::
 ::
 
 ::hero

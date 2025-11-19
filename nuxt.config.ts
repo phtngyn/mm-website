@@ -35,12 +35,12 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2025-05-01',
 
-  nitro: {
-    prerender: {
-      routes: ['/'],
-      crawlLinks: true,
-    },
-  },
+  // nitro: {
+  //   prerender: {
+  //     routes: ['/'],
+  //     crawlLinks: true,
+  //   },
+  // },
 
   typescript: {
     tsConfig: {
@@ -67,7 +67,7 @@ export default defineNuxtConfig({
   },
 
   studio: {
-    dev: false,
+    dev: true,
     route: '/admin',
     repository: {
       provider: 'github',
